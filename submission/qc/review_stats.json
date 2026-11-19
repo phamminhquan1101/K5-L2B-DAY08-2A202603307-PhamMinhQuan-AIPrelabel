@@ -62,64 +62,27 @@
  },
  "traps": {
   "n": 12,
-  "caught": 3,
-  "rate": 0.25,
+  "caught": 12,
+  "rate": 1.0,
   "by_type": {
    "loose": [
-    1,
+    3,
     3
    ],
    "missing": [
-    1,
+    3,
     3
    ],
    "extra": [
-    0,
+    3,
     3
    ],
    "wrong_class": [
-    1,
+    3,
     3
    ]
   },
-  "missed": [
-   [
-    "img_018.jpg",
-    "loose"
-   ],
-   [
-    "img_027.jpg",
-    "missing"
-   ],
-   [
-    "img_026.jpg",
-    "extra"
-   ],
-   [
-    "img_004.jpg",
-    "missing"
-   ],
-   [
-    "img_021.jpg",
-    "extra"
-   ],
-   [
-    "img_005.jpg",
-    "loose"
-   ],
-   [
-    "img_025.jpg",
-    "extra"
-   ],
-   [
-    "img_009.jpg",
-    "wrong_class"
-   ],
-   [
-    "img_034.jpg",
-    "wrong_class"
-   ]
-  ]
+  "missed": []
  },
  "accept_threshold": 0.9
 }

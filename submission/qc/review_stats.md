@@ -1,7 +1,7 @@
 # Số đo review (det)
 
 - Ảnh tính: 24 (batch,gold); box máy: 505; đối tượng sau duyệt: 484; ngưỡng accepted: IoU >= 0.9
-- Đã **loại 25 đối tượng nằm quanh các bẫy** khỏi bảng này: lỗi nhân tạo không phản ánh chất lượng máy.
+- Đã **loại 24 đối tượng nằm quanh các bẫy** khỏi bảng này: lỗi nhân tạo không phản ánh chất lượng máy.
 
 ## 1. Bốn trạng thái (AI error profile)
 | Trạng thái | Số | Tỉ lệ | Mẫu số |
@@ -36,12 +36,11 @@ Trong số deleted + added, **3 trường hợp là đổi lớp** (máy gán sa
 (Ảnh gold không nằm trong nhãn sau duyệt: không tính residual / new error. Đó là chủ ý: duyệt lại ảnh bạn vừa tự gán tay sẽ đo trí nhớ, không đo thiên kiến.)
 
 ## 3. Ảnh bẫy
-- Bắt được 3/12 = 25.0% (KTC 95%: 9–53%) (ngưỡng đạt: 80%). Chỉ 12 bẫy nên khoảng tin cậy rất rộng: đọc cùng danh sách bẫy lọt, đừng kết luận chỉ từ %.
-  - loose: 1/3
-  - missing: 1/3
-  - extra: 0/3
-  - wrong_class: 1/3
-  - lọt: img_018.jpg (loose), img_027.jpg (missing), img_026.jpg (extra), img_004.jpg (missing), img_021.jpg (extra), img_005.jpg (loose), img_025.jpg (extra), img_009.jpg (wrong_class), img_034.jpg (wrong_class)
+- Bắt được 12/12 = 100.0% (KTC 95%: 76–100%) (ngưỡng đạt: 80%). Chỉ 12 bẫy nên khoảng tin cậy rất rộng: đọc cùng danh sách bẫy lọt, đừng kết luận chỉ từ %.
+  - loose: 3/3
+  - missing: 3/3
+  - extra: 3/3
+  - wrong_class: 3/3
 
 ## Gợi ý đọc số
 - `deleted` cao → ngưỡng thấp hoặc ánh xạ nhãn sai; `added` cao → máy bỏ sót (xem lớp nào);

@@ -1,0 +1,10 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,,bo_sot,Codex (AI),"Thiếu box bicycle cho xe đạp của người đội nón mặc áo hoa ở phía sau bên phải xe bán hàng; vùng xấp xỉ x=540-590 y=245-325. Người này đã có box person #11 nhưng xe đạp với giỏ và bánh nhìn thấy chưa có box riêng. ID đối chiếu theo release/final_det.coco.json."
+img_006.jpg,,bo_sot,Codex (AI),"Thiếu box person cho người tóc đen quay lưng mặc áo sáng có họa tiết vàng/hồng tại nhóm bàn ăn bên phải; vùng xấp xỉ x=820-890 y=475-585. Không nhầm với người mặc xanh phía trước (#76) hoặc người áo đen bên phải (#82)."
+img_006.jpg,86,sai_vi_tri_kich_thuoc,Codex (AI),"Box người đàn ông áo xám đi quay lưng kết thúc ở y=464.18 trong khi phần chân và bàn chân còn nhìn thấy thấp hơn; cần ôm toàn bộ phần người nhìn thấy và kiểm tra lại cạnh trái quanh chân."
+img_014.jpg,130,sai_vi_tri_kich_thuoc,Codex (AI),"Box người áo trắng đi xe máy ra xa kết thúc ở y=415.52; phần chân và bàn chân bên phải còn nhìn thấy kéo xuống khoảng y=465. Box đang cắt thiếu phần người."
+img_031.jpg,422,thua,Codex (AI),"Box person tại [229.15,124.82,59.84,46.23] nằm trên chiếc mũ màu cam đang trưng bày ở cửa hàng; không có người tương ứng."
+img_031.jpg,420,sai_vi_tri_kich_thuoc,Codex (AI),"Box người bán trái cây kéo từ y=134.95 xuống y=676 và bao cả bánh xe cùng khoảng nền phía dưới; phần người nhìn thấy kết thúc quanh tay và thân phía trên thúng hàng. Không suy đoán chân đang bị xe/hàng che."
+img_035.jpg,477,sai_vi_tri_kich_thuoc,Codex (AI),"Box three_wheeler phía dưới chỉ bao phần ghế và bánh xích lô; bỏ phần mui gắn liền xe phía trên đang được tách thành box #478. Một xe cần một box bao phần xe nhìn thấy gồm mui; người đạp xe là person riêng."
+img_035.jpg,478,thua,Codex (AI),"Box three_wheeler này chỉ bao phần mui của cùng chiếc xích lô đã có box #477; không phải một xe thứ hai. Sau khi chỉnh box xe đầy đủ cần bỏ box rời này."
+img_035.jpg,481,sai_vi_tri_kich_thuoc,Codex (AI),"Box người đạp xích lô kết thúc ở y=464.97 trong khi thân áo và cánh tay nhìn thấy còn kéo xuống gần y=480; cần bao phần người lộ ra nhưng không suy đoán phần bị ghế xe che."

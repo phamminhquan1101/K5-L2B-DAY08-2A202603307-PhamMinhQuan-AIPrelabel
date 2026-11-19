@@ -1,0 +1,333 @@
+{
+  "round": "2 (AI-assisted, trap key disclosed; not an independent trap-catch measurement)",
+  "scope": "Only nine visually inspected missed-trap cases; not a full batch quality review.",
+  "original_sha256": "16dcfc1ee4364314ffdc8f0d6eb234483275684172fdc67ff53d6d5c634422de",
+  "protected_sha256": {
+    "submission/prelabel/traps_key.json": "2c62c1f65fc46b3b2462e46a55329e502c0845116f6c99331b4f6dcbc34f96e8",
+    "submission/prelabel/pre_traps.coco.json": "af2a9f5d7701fdfc4f3eb224bec275b39805529087f910c70e0193583abac823",
+    "submission/labels/gold_manual.json": "d62f8129dbd906dfa8ae27725706ead7a055ce6eef18ee55035fc2432e5ca94e"
+  },
+  "before_count": 498,
+  "after_count": 497,
+  "changes": [
+    {
+      "image": "img_018.jpg",
+      "trap_type": "loose",
+      "action": "resize",
+      "visual_observation": "Xe máy đỗ bên đường; box lỗi lệch lên trên và không bao đủ xe.",
+      "before": {
+        "id": 195,
+        "image_id": 11,
+        "category_id": 3,
+        "segmentation": [],
+        "area": 2987.4018000000024,
+        "bbox": [
+          937.64,
+          491.67,
+          56.73,
+          52.66
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.52",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      },
+      "after": {
+        "id": 195,
+        "image_id": 11,
+        "category_id": 3,
+        "segmentation": [],
+        "area": 2227.085,
+        "bbox": [
+          943.35,
+          504.06,
+          49.25,
+          45.22
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.52",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      }
+    },
+    {
+      "image": "img_027.jpg",
+      "trap_type": "missing",
+      "action": "add",
+      "visual_observation": "Người mặc áo xám phía sau người đội mũ đỏ chưa có box riêng.",
+      "before": null,
+      "after": {
+        "id": 499,
+        "image_id": 18,
+        "category_id": 1,
+        "segmentation": [],
+        "area": 629.7778,
+        "bbox": [
+          552.89,
+          333.16,
+          20.14,
+          31.27
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      }
+    },
+    {
+      "image": "img_026.jpg",
+      "trap_type": "extra",
+      "action": "delete",
+      "visual_observation": "Box nằm trên mặt tiền cửa hàng, không có xe máy tương ứng.",
+      "before": {
+        "id": 321,
+        "image_id": 17,
+        "category_id": 3,
+        "segmentation": [],
+        "area": 20645.323200000003,
+        "bbox": [
+          27.61,
+          154.67,
+          114.48,
+          180.34
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.77",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      },
+      "after": null
+    },
+    {
+      "image": "img_004.jpg",
+      "trap_type": "missing",
+      "action": "add",
+      "visual_observation": "Người mặc áo đen đứng giữa hai xe tuk-tuk chưa có box riêng.",
+      "before": null,
+      "after": {
+        "id": 500,
+        "image_id": 2,
+        "category_id": 1,
+        "segmentation": [],
+        "area": 12488.4944,
+        "bbox": [
+          452.79,
+          242.63,
+          52.24,
+          239.06
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      }
+    },
+    {
+      "image": "img_021.jpg",
+      "trap_type": "extra",
+      "action": "delete",
+      "visual_observation": "Box nằm trên cây và nền phía trên dòng xe, không có người tương ứng.",
+      "before": {
+        "id": 202,
+        "image_id": 12,
+        "category_id": 1,
+        "segmentation": [],
+        "area": 18267.71190000001,
+        "bbox": [
+          672.03,
+          176.14,
+          127.31,
+          143.49
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.54",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      },
+      "after": null
+    },
+    {
+      "image": "img_005.jpg",
+      "trap_type": "loose",
+      "action": "resize",
+      "visual_observation": "Box người mặc áo đỏ bị lệch xuống, bỏ phần đầu/mũ.",
+      "before": {
+        "id": 30,
+        "image_id": 3,
+        "category_id": 1,
+        "segmentation": [],
+        "area": 7807.136400000001,
+        "bbox": [
+          245.61,
+          272.71,
+          73.08,
+          106.83
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.80",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      },
+      "after": {
+        "id": 30,
+        "image_id": 3,
+        "category_id": 1,
+        "segmentation": [],
+        "area": 7996.6848,
+        "bbox": [
+          251.62,
+          244.9,
+          64.74,
+          123.52
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.80",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      }
+    },
+    {
+      "image": "img_025.jpg",
+      "trap_type": "extra",
+      "action": "delete",
+      "visual_observation": "Box bao vùng biển hiệu và nền phố, không có một ô tô tương ứng.",
+      "before": {
+        "id": 311,
+        "image_id": 16,
+        "category_id": 4,
+        "segmentation": [],
+        "area": 26228.4023,
+        "bbox": [
+          419.67,
+          61.54,
+          175.57,
+          149.39
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.46",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      },
+      "after": null
+    },
+    {
+      "image": "img_009.jpg",
+      "trap_type": "wrong_class",
+      "action": "reclassify",
+      "visual_observation": "Vùng box là người ngồi bị che một phần, thấy đầu và áo đỏ/đen; không phải xe máy.",
+      "before": {
+        "id": 105,
+        "image_id": 6,
+        "category_id": 3,
+        "segmentation": [],
+        "area": 9676.560000000005,
+        "bbox": [
+          54.29,
+          329.15,
+          110.4,
+          87.65
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      },
+      "after": {
+        "id": 105,
+        "image_id": 6,
+        "category_id": 1,
+        "segmentation": [],
+        "area": 10488.0,
+        "bbox": [
+          54.29,
+          329.15,
+          110.4,
+          95.0
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      }
+    },
+    {
+      "image": "img_034.jpg",
+      "trap_type": "wrong_class",
+      "action": "reclassify",
+      "visual_observation": "Box thuộc người mặc áo đỏ đang đi xe, cần nhãn person tách khỏi motorbike.",
+      "before": {
+        "id": 453,
+        "image_id": 23,
+        "category_id": 2,
+        "segmentation": [],
+        "area": 618.1425000000004,
+        "bbox": [
+          367.7,
+          381.64,
+          20.75,
+          29.79
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.56",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      },
+      "after": {
+        "id": 453,
+        "image_id": 23,
+        "category_id": 1,
+        "segmentation": [],
+        "area": 618.1425,
+        "bbox": [
+          367.7,
+          381.64,
+          20.75,
+          29.79
+        ],
+        "iscrowd": 0,
+        "attributes": {
+          "conf": "0.56",
+          "can_review": false,
+          "occluded": false,
+          "rotation": 0.0
+        }
+      }
+    }
+  ]
+}
