@@ -5,7 +5,7 @@
 - Lớp (L2 / L3 / khác): L2B
 - Tài khoản GitHub: phamminhquan1101
 - Repo bài nộp (URL): [github.com/phamminhquan1101/K5-L2B-DAY08-2A202603307-PhamMinhQuan-AIPrelabel.git](https://github.com/phamminhquan1101/K5-L2B-DAY08-2A202603307-PhamMinhQuan-AIPrelabel.git)
-- Commit chốt bài (hash):
+- Commit chốt bài (hash): d1aaff6859dc31b2bdbd52bda425952c7173a959
 - Máy: Windows, CPU, RAM 8 GB, không GPU; model chạy local với `--device cpu`, không dùng Colab.
 - CVAT (Docker): chạy local
 
